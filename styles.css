@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	color: goldenrod;
+}
+
+#message-el {
+}
+
+.game-container {
+	background-image: url(/images/felt-dark-green.jpg);
+}
