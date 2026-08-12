@@ -14,7 +14,7 @@ let player = {
 };
 
 const playerEl = document.getElementById('player-el');
-playerEl.textContent = `${player.name}: ${player.chips} `;
+playerEl.textContent = `${player.name}: $${player.chips} `;
 
 function startGame() {
 	isAlive = true;
