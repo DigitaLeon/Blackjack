@@ -8,6 +8,14 @@ const messageEl = document.getElementById('message-el');
 const sumEl = document.getElementById('sum-el');
 const cardsEl = document.getElementById('cards-el');
 
+let player = {
+	name: 'Leon',
+	chips: 200,
+};
+
+const playerEl = document.getElementById('player-el');
+playerEl.textContent = `${player.name}: ${player.chips} `;
+
 function startGame() {
 	isAlive = true;
 	let firstCard = getRandomCard();
